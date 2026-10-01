@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0f1c"/>
+      <stop offset="100%" stop-color="#141d33"/>
+    </linearGradient>
+    <linearGradient id="shieldFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a3a8a"/>
+      <stop offset="100%" stop-color="#0d2a5e"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="512" height="512" fill="url(#bg)"/>
+  
+  <!-- Network nodes -->
+  <g stroke="#22d3ee" stroke-width="2" fill="#22d3ee">
+    <line x1="256" y1="256" x2="256" y2="40" />
+    <line x1="256" y1="256" x2="440" y2="110" />
+    <line x1="256" y1="256" x2="472" y2="256" />
+    <line x1="256" y1="256" x2="440" y2="402" />
+    <line x1="256" y1="256" x2="256" y2="472" />
+    <line x1="256" y1="256" x2="72" y2="402" />
+    <line x1="256" y1="256" x2="40" y2="256" />
+    <line x1="256" y1="256" x2="72" y2="110" />
+    <circle cx="256" cy="40" r="4"/>
+    <circle cx="440" cy="110" r="4"/>
+    <circle cx="472" cy="256" r="4"/>
+    <circle cx="440" cy="402" r="4"/>
+    <circle cx="256" cy="472" r="4"/>
+    <circle cx="72" cy="402" r="4"/>
+    <circle cx="40" cy="256" r="4"/>
+    <circle cx="72" cy="110" r="4"/>
+  </g>
+  
+  <!-- Shield -->
+  <path d="M 156 120 L 156 250 Q 156 310 256 400 Q 356 310 356 250 L 356 120 Z" 
+        fill="url(#shieldFill)" stroke="#4a90ff" stroke-width="5"/>
+  
+  <!-- Inner border -->
+  <path d="M 168 132 L 168 248 Q 168 302 256 382 Q 344 302 344 248 L 344 132 Z" 
+        fill="none" stroke="#22d3ee" stroke-width="2" opacity="0.7"/>
+  
+  <!-- Letter M -->
+  <text x="256" y="270" font-family="Arial, sans-serif" font-size="110" font-weight="bold" 
+        fill="#f8fafc" text-anchor="middle">M</text>
+</svg>
