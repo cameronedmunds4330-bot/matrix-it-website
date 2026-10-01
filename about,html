@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About — Matrix I.T. &amp; Cybersecurity</title>
+<meta name="description" content="Matrix I.T. &amp; Cybersecurity is a managed IT and security provider built on straightforward advice and fast response.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <img src="images/logo-blue.jpg" alt="Matrix I.T. &amp; Cybersecurity logo">
+      <span>MATRIX I.T.<small>NETWORKS · SECURITY · SUPPORT</small></span>
+    </a>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <a class="btn btn-ghost" href="tel:+15550000000">(555) 000-0000</a>
+      <a class="btn btn-primary" href="contact.html">Get a Risk Assessment</a>
+    </div>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+  </div>
+  <div class="mobile-nav">
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="wrap">
+    <div class="eyebrow">WHO WE ARE</div>
+    <h1>IT support built by people who'd rather prevent the fire than put it out</h1>
+    <p class="lede">Matrix I.T. &amp; Cybersecurity started with a simple frustration: most IT providers only show up after something breaks. We built a team that watches for the break before it happens.</p>
+  </div>
+</section>
+
+<section id="story">
+  <div class="wrap">
+    <div class="grid cols-2">
+      <div class="card">
+        <h2>How we work</h2>
+        <p>We treat your network like it's ours to defend — proactive monitoring, clear reporting, and a technician who already knows your setup when you call, instead of a rotating queue of strangers.</p>
+      </div>
+      <div class="card">
+        <h2>Who we serve</h2>
+        <p>Small and mid-sized businesses that need enterprise-grade security and support without hiring a full internal IT department.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="values">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">WHAT WE STAND FOR</div>
+      <h2>Stronger systems. Safer tomorrows.</h2>
+    </div>
+    <div class="grid cols-3">
+      <div class="card">
+        <div class="num">01</div>
+        <h3>Plain answers</h3>
+        <p>You get a straight explanation of what's wrong and what it costs to fix — no jargon, no upselling.</p>
+      </div>
+      <div class="card">
+        <div class="num">02</div>
+        <h3>Fast response</h3>
+        <p>Real people answer the phone, and most tickets get a first response inside fifteen minutes.</p>
+      </div>
+      <div class="card">
+        <div class="num">03</div>
+        <h3>Security first</h3>
+        <p>Every recommendation weighs the security trade-off, not just the convenience one.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="cta">
+  <div class="wrap">
+    <div class="panel">
+      <div>
+        <div class="eyebrow">YOUR NETWORK. YOUR DATA. OUR PRIORITY.</div>
+        <h2>Want to see how we'd approach your setup?</h2>
+        <p class="mt-0">Tell us a bit about your business and we'll walk you through where we'd start.</p>
+      </div>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="contact.html">Get in touch</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="brand" style="margin-bottom:14px;">
+          <img src="images/logo-blue.jpg" alt="Matrix I.T. logo">
+          <span>MATRIX I.T.<small>STRONGER SYSTEMS. SAFER TOMORROWS.</small></span>
+        </div>
+        <p>Managed IT support and cybersecurity for growing businesses.</p>
+      </div>
+      <div>
+        <h4>SERVICES</h4>
+        <ul>
+          <li><a href="services.html">Cybersecurity Solutions</a></li>
+          <li><a href="services.html">Network Management</a></li>
+          <li><a href="services.html">IT Support &amp; Troubleshooting</a></li>
+          <li><a href="services.html">Cloud Services</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>COMPANY</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>CONTACT</h4>
+        <ul>
+          <li><a href="tel:+15550000000">(555) 000-0000</a></li>
+          <li><a href="mailto:hello@matrixitsupport.com">hello@matrixitsupport.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Matrix I.T. &amp; Cybersecurity</span>
+      <span>NETWORKS · SYSTEMS · SECURITY · SUPPORT</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
