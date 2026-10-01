@@ -15,5 +15,5 @@ Plain HTML, CSS, and JavaScript. No build step. Open `index.html` in a browser t
 
 ## To do
 - Connect the contact form to a form backend
-- Finalize business email and domain
+- Set up business email and domain (temporary contact email in use)
 - Replace placeholder stats with real figures
