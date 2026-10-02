@@ -33,3 +33,27 @@
     });
   }
 })();
+
+// Matrix rain effect in the hero
+(function () {
+  var c = document.getElementById('matrix-rain');
+  if (!c || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  var ctx = c.getContext('2d'), size = 16, drops = [];
+  function resize() {
+    c.width = c.offsetWidth; c.height = c.offsetHeight;
+    drops = Array(Math.ceil(c.width / size)).fill(0).map(function () { return Math.random() * -50; });
+  }
+  resize(); window.addEventListener('resize', resize);
+  function draw() {
+    ctx.fillStyle = 'rgba(4, 8, 6, 0.12)';
+    ctx.fillRect(0, 0, c.width, c.height);
+    ctx.fillStyle = '#3dff7f';
+    ctx.font = size + 'px "IBM Plex Mono", monospace';
+    for (var i = 0; i < drops.length; i++) {
+      ctx.fillText(Math.random() > 0.5 ? '1' : '0', i * size, drops[i] * size);
+      if (drops[i] * size > c.height && Math.random() > 0.975) drops[i] = 0;
+      drops[i]++;
+    }
+  }
+  setInterval(draw, 60);
+})();
